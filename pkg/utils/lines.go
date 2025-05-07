@@ -19,6 +19,7 @@ func SplitLines(multilineString string) []string {
 	if lines[len(lines)-1] == "" {
 		return lines[:len(lines)-1]
 	}
+	
 	return lines
 }
 
